@@ -25,3 +25,14 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+
+.zoom:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+.zoom-a:hover {
+    display: inline-block;
+    transform: scale(1.10);
+    transition-duration: 0.3s;
+}
